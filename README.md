@@ -4,9 +4,9 @@ This project provides an administration facility and tool for managing the patie
 
 This project focuses on the backend development via using PHP as server-side programming language.
 
-The project is running on [cbbireland.webutu.com](http://cbbireland.webutu.com/).
+The project is running on [cbbireland.000webhostapp.com](https://cbbireland.000webhostapp.com/).
 
-To access the admin site, go to: [cbbireland.webutu.com/admin](http://cbbireland.webutu.com/admin) :
+To access the admin site, go to: [cbbireland.000webhostapp.com/admin](https://cbbireland.000webhostapp.com/admin) :
 Username: root  |   Password: root
 
 ![CBB Gif](https://github.com/John-Almardeny/community-blood-bank/blob/master/cbb.gif?raw=true)
