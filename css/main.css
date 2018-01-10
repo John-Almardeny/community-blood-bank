@@ -1,0 +1,499 @@
+ @font-face { font-family: Berlin Sans FB; src: local('Berlin Sans FB'), url('fonts/Berlin Sans FB.TTF');}  
+ @font-face { font-family: Bell MT; src: local('Bell MT'), url('fonts/Bell MT.TTF');}
+ @font-face { font-family: Bell MT; font-weight: bold; src: local('Bell MT Bold'), url('fonts/Bell MT Bold.TTF');}
+ @font-face { font-family: Aldhabi; src: local('Aldhabi'), url('fonts/Aldhabi.TTF');}
+ @font-face { font-family: Tahoma; src: local('Tahoma'), url('fonts/Tahoma.TTF');}
+ @font-face { font-family: Harrington; src: local('Harrington'), url('fonts/Harrington.TTF');}
+ @font-face { font-family: Bodoni MT; src: local('Bodoni MT'), url('fonts/Bodoni MT.TTF');}
+ 
+ 
+
+
+
+
+
+html{ 
+	background: url('../images/bg.jpg') repeat center center fixed; 	
+}
+
+.loginButton{
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+
+.loginButton:hover {background-color: #3e8e41}
+
+.loginButton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.mainContainer{
+	position: relative;
+	width: 75%;
+    border: 4px solid black;
+	border-top: 0px;
+	margin-top: 0;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;			
+	box-shadow: 0px 0px 70px black;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.headerContainer{
+	font-size: 0;
+	height: 30%;
+}
+
+.navBarContainer{
+	width: 100%;
+	height: 35px;
+	background-color: #663D70;
+	background-color: black;
+	display: inline-block;
+	font-size: 0;
+	border-style: ridge;
+	border-color: gray;
+	border-right: 0;
+	border-left: 0;
+}
+
+.navbar ul li{
+	margin-left: 0;
+	line-height:35px;
+	font-size: 1.2vw;
+	display: inline-block;
+	vertical-align:middle;	
+}
+
+.navbar a{
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 5px;
+	text-decoration: none;
+	font-family: Berlin Sans FB;
+	color: white;
+}
+
+.navbar a:hover{
+	color: green;
+}
+
+.navbar selected{
+	background-color: green;
+	padding: 5px;
+	color: black;
+}
+
+.selectedInfo{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.bodyContainer{
+	
+	background-color: #D6D6D6;
+	overflow-y: auto;
+}
+
+.footerContainer{
+	background-color: white;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;	
+	font-size: 0;
+	background-color: #D6D6D6;
+	height: 45px;
+
+}
+
+.break{
+	background-color: black;	
+	height: 8px;
+}
+
+.footerBar ul li{
+	margin-left: 0;
+	margin-top: 8px;
+	line-height:25px;
+	font-size: 0.9vw;
+	font-weight: bold;
+	display: inline-block;
+	vertical-align:middle;
+}
+
+.footerBar a{
+	margin-right: 10px;
+	padding: 5px;
+	text-decoration: none;
+	font-family: Tahoma;
+	color: black;
+}
+
+.footerBar a:hover, .footerBar a:active{
+	color: black;
+	color: blue;
+}
+
+.footerIcons {
+	float: right;
+	resize: both;
+	margin-right: 10px;
+}
+
+
+
+.homeContentLeftContainer{
+	float: left;
+	vertical-align: middle;
+	width: 45%;
+	margin-top: 30px;
+	margin-left: 15px; 
+}
+
+.homeContentRightContainer{
+	float:right;
+	vertical-align: middle;
+	width: 45%;
+	margin-top: 30px;
+	margin-right: 15px;
+}
+
+.marqueeClass{
+	height: 70vh;
+	background-color:#D6D6D6;
+	font-size:13pt;
+	font-family: Bodoni MT;
+}
+
+.ContentLeftContainer{
+	float: left;
+	vertical-align: middle;
+	width: 18%;
+	margin-top: 15px;
+	margin-left: 5px;
+	margin-right: 0;
+}
+
+.ContentRightContainer{
+	float:right;
+	vertical-align: middle;
+	width: 75%;
+	margin-top: 15px;
+	margin-right: 15px;
+	right: 15px;
+}
+
+.verticalLine{
+  width: 1px;
+  background-color: silver;
+  height: 60vh;
+  float: left;
+  border: 1px ridge silver ;
+  border-radius: 2px;
+  margin: 0;
+}
+
+.info{
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+    margin-right: auto;
+	line-height: 25px;
+    width: 10em;
+	font-size: 1vw;
+	font-family: Times New Roman;
+}
+
+
+#TheNeedOfBlood:hover,
+#HowBloodIsUsed:hover,
+#WhoYouCouldHelp:hover,
+#HealthConsiderations:hover,
+#TravelConsiderations:hover,
+#DonorsAndDisability:hover,
+#RegisteringOnline:hover,
+#PreparingToGiveBlood:hover,
+#WhatHappensOnTheDay:hover,
+#AfterYourDonation:hover{
+	font-weight: bold;
+}
+
+
+.selected{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
+.Content{
+	font-size: 1.1vw;
+	font-family: Bell MT;
+}
+
+
+textarea:focus { 
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1
+}
+
+
+textarea{ 
+    width: 75%;
+}
+
+
+
+.links{
+	position: relative;
+	vertical-align: middle;
+	margin-left: 50px;
+	margin-right: auto;
+	font-family: Berlin Sans FB;
+	font-size: 1.1vw;
+}
+
+
+hr.source { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #D6D6D6, #8c8b8b, #D6D6D6);
+  background-image: -moz-linear-gradient(left, #D6D6D6, #8c8b8b, #D6D6D6);
+  background-image: -ms-linear-gradient(left, #D6D6D6, #8c8b8b, #D6D6D6);
+  background-image: -o-linear-gradient(left, #D6D6D6, #8c8b8b, #D6D6D6); 
+  margin-top:10px;
+  margin-bottom:0;
+  bottom: 0;
+}
+
+.sitemap{
+	margin-left:25px;
+}
+
+.termsOfUse{
+	font-family: Harrington;
+	color: Red;
+	font-size: 25pt;
+}
+
+
+
+@media screen and (max-width: 900px){
+	
+	.navBarContainer{
+	width: 100%;
+	height: 35px;
+	background-color: #663D70;
+	background-color: black;
+	display: inline-block;
+	font-size: 0;
+	border-style: ridge;
+	border-color: gray;
+	border-right: 0;
+	border-left: 0;
+	}
+	
+	.navbar ul{
+		padding: 0;
+		display: inline-block;
+		font-size: 0;
+		vertical-align:middle;
+		line-height:35px;
+	}
+	
+	.navbar li{
+	margin-left: 1 px;
+	margin-right: 1 px;
+	vertical-align:middle;
+	line-height:35px;
+	}
+
+	.navbar a{
+		margin-left: 1px;
+		margin-right: 1px;
+		text-decoration: none;
+		font-family: Berlin Sans FB;
+		color: white;
+		}
+		
+	.footerContainer{
+	flex: 0 1 35px;
+	background-color: white;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;	
+	font-size: 0;
+	background-color: #D6D6D6;
+}
+		
+	.footerBar ul {
+		padding: 0;
+		margin-left: 1px;
+		margin-right: 1px;
+
+	}
+	
+	.footerBar li{
+	font-size: 0.9vw;
+	font-weight: bold;
+	display: inline-block;
+	vertical-align:middle;
+	}
+
+
+	.footerBar a{
+		margin-left: 1px;
+		margin-right: 1px;
+		text-decoration: none;
+		font-family: Tahoma;
+		color: black;
+	}
+
+	.footerIcons {
+		float: right;
+		margin-right: 1px;
+	}
+	
+	.footerIcons img{
+		width: 25px;
+		height: auto;
+	}
+	
+	.break{
+	height: 5px;
+	background-color: #582A72;	
+}
+
+
+.homeContentLeftContainer{
+	float: left;
+	vertical-align: middle;
+	width: 45%;
+	margin-top: 10px;
+	margin-left: 5px; 
+	font-size: 1.5vw;
+}
+
+
+
+.ContentRightContainer{
+	
+	float:right;
+	vertical-align: middle;
+	width: 45%;
+	margin-top: 10px;
+	margin-right: 5px;
+	font-size: 1.5vw;
+}
+
+.marqueeClass{
+	height: 50vh;
+	width: 100%;
+	background-color:#D6D6D6;
+	font-size: 8pt;
+	font-family: Bodoni MT;
+}
+
+
+
+
+.ContentLeftContainer{
+	float: left;
+	vertical-align: middle;
+	width: 15%;
+	margin-top: 2px;
+	margin-right: 1px;
+	font-size: 0;
+}
+
+.ContentLeftContainer ul{
+	padding: 0;
+}
+
+.ContentLeftContainer li{
+	padding: 0;
+	margin-left: 10px;
+	margin-right: -5px;
+}
+
+
+.ContentRightContainer{
+	float:right;
+	vertical-align: middle;
+	width: 75%;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+
+.verticalLine{
+  width: 1 px;
+  background-color: silver;
+  height: 60vh;
+  border: 1px ridge silver ;
+  border-radius: 0px;
+  margin-left: 2px;
+  float: left;
+
+}
+
+
+.info{
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+    margin-right: auto;
+	line-height: 10px;
+    width: 1em;
+	font-size: 1vw;
+	font-family: Times New Roman;
+}
+
+.Content{
+	font-size: 1.5vw;
+	font-family: Bell MT;
+}
+
+.links blockquote{
+	padding: 0;
+	margin-left: 5px;
+	margin-right: 5px;
+
+}
+
+.links{
+	position: relative;
+	vertical-align: middle;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-family: Berlin Sans FB;
+	font-size: 1.2vw;
+}
+
+.sitemap{
+	margin-left:5px;
+	font-size: 2vw;
+}
+
+.termsOfUse{
+	font-family: Harrington;
+	color: Red;
+	font-size: 10pt;
+}
+
+		
+}

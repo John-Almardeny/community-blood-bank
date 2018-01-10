@@ -1,0 +1,174 @@
+body{
+  background-color: #050845;
+  color: black;
+}
+
+.container {
+  background-color: #fdf8f2;
+  margin-top:1%;
+  padding:3%;
+}
+
+header {
+  padding:1em;
+  background-color:#256290;
+}
+
+h1, h2{
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #666666;
+}
+
+h1{
+  font-size: 2em;
+  color:white;
+}
+
+p{
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+a {
+  outline:0;
+}
+
+form,table {
+  margin-top:1%;
+}
+
+.table th{
+    background-color:navy;
+    color:white;
+}
+
+.table.table-striped tbody tr:nth-child(even) td,
+.table.table-striped tbody tr:nth-child(even) th
+{
+  background-color: #f1f1f1;
+}
+.table.table-striped tbody tr:nth-child(odd) td,
+.table.table-striped tbody tr:nth-child(odd) th
+ {
+  background-color: #E6E6FA;
+}
+
+.table.table-striped tbody tr:nth-child(even):hover td,
+.table.table-striped tbody tr:nth-child(even):hover th,
+.table.table-striped tbody tr:nth-child(odd):hover td,
+.table.table-striped tbody tr:nth-child(odd):hover th 
+
+{
+background-color:#dcdcdc;
+cursor:pointer;
+
+}
+.table.table-striped tbody a:link {
+  text-decoration:underline;
+}
+
+.table.table-striped tbody a:visited {
+  text-decoration:underline;
+}
+
+.table.table-striped tbody a:hover {
+  text-decoration:none;
+}
+
+
+input[type="text"]:valid, input[type="email"]:valid, input[type="password"]:valid, input[type="url"]:valid{
+    color: green;
+}
+
+/* Unmatched */
+input[type="text"]:invalid, input[type="email"]:invalid, input[type="password"]:invalid, input[type="url"]:invalid{
+    color: redl;
+    border-color:red;
+}
+
+.navbar {
+  margin-top:2em;
+  background-color: #256290;
+  background-image: none;
+  border:solid #256290; 1px;
+}
+
+.navbar ul.nav li {
+  font-family : Arial, Helvetica, sans-serif;
+  font-size : 1.2em;
+  padding:0;
+}
+
+.navbar ul.nav li a:link, .navbar ul.nav li a:visited{
+  color : white;
+}
+
+.navbar ul.nav li a:hover{
+  text-shadow:none;
+  color:antiquewhite;  
+}
+
+.startup {
+   margin-top:2em;
+}
+
+
+a.start {
+   font-size:200%;
+   text-decoration:underline;
+}
+
+ .navbar ul.nav li.dropdown ul{
+   margin-top:.2em;
+ }
+ 
+ 
+ .navbar ul.nav li.dropdown ul.dropdown-menu li{
+   margin-top:.5em;  
+ }
+ 
+ .navbar ul.nav li.dropdown ul.dropdown-menu a:link, .navbar ul.nav li.dropdown ul.dropdown-menu a:visited{
+   background-color: #256290;
+   background-image: none;
+   color:white;
+ }
+ .navbar ul.nav li.dropdown ul.dropdown-menu a:hover{
+   background-color: #256290;
+   background-image: none;
+   color:antiquewhite;
+ }
+ 
+ /* The background colour is set to #256290 and the font colour set to white when the drop down
+    menu is open */
+  .navbar .nav li.dropdown.open .dropdown-toggle {
+   color:white;
+   background-image:none;
+   background-color:#256290;
+ }
+ 
+ /* The font colour of the list items within the nested list are changed to white when they are hovered over */
+ ul.nav li.dropdown ul.dropdown-menu a:hover{
+   color:white;
+ }
+ 
+ /* The caret is set to white */
+ .navbar .nav li.dropdown .dropdown-toggle .caret{
+   border-top-color:white;
+   border-bottom-color:white;
+ }
+  
+ /* The colour of the caret is changed to black when it is hovered over or the current focus */
+ .navbar .nav li.dropdown  a:hover .caret,.navbar .nav li.dropdown a:focus .caret{
+   border-top-color:white;
+   border-bottom-color:white;
+ }
+  
+ /* The colour of the caret is changed to white when the nested list is open */ 
+ .navbar .nav li.dropdown.open .dropdown-toggle .caret{
+   border-top-color:white;
+   border-bottom-color:white;
+ }
+ 
+
+
+
+

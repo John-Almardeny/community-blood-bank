@@ -1,0 +1,245 @@
+<!DOCTYPE HTML>
+<html lan="en">
+<head>
+<meta charset = "utf-8">
+<meta name = "CBB" content = "Cryptanalysis">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Donation Process</title>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico'/>
+</head>
+<body class = "mainContainer">
+
+<div class = "headerContainer"><img src= "images/header.png" width = "100%" height= "100%" Alt="Header Image"></div>
+<div class = "navBarContainer">
+<div class ="navbar"> 
+<ul>
+<li><a href= "index.html">Home</a><font color = "white"><b>|</b> 
+<li><a href= "Why Give Blood.html">Why Give Blood</a><b>|</b> 
+<li><a href= "Who Can Give Blood.html">Who Can Give Blood</a><b>|</b> 
+<li><a href= "Donation Process.html"><selected>Donation Process</a><b>|</b> 
+<li><a href= "Blood Types.html">Blood Types</a><b>|</b>
+<li><a href= "ContactUs.html">Contact Us</a></font>
+</ul>
+</div>
+</div>
+<div class = "bodyContainer">
+<div class = "ContentLeftContainer">
+<br>
+<div class="info">
+<ul type  = "square">
+<li><div id="RegisteringOnline">Registering Online</div>
+<li><div id="PreparingToGiveBlood">Preparing To Give Blood</div>
+<li><div id="WhatHappensOnTheDay">What Happens On The Day</div>
+<li><div id="AfterYourDonation">After Your Donation</div>
+</ul>
+
+
+</div>
+<script>
+$('#RegisteringOnline').on('click',function(){
+$('#PreparingToGiveBlood').removeClass("selectedInfo");
+$('#WhatHappensOnTheDay').removeClass("selectedInfo");
+$('#AfterYourDonation').removeClass("selectedInfo");
+$(this).addClass('selectedInfo');
+$('#1').show().siblings('div').hide();	
+});
+
+$('#PreparingToGiveBlood').on('click',function(){
+$('#RegisteringOnline').removeClass("selectedInfo");
+$('#WhatHappensOnTheDay').removeClass("selectedInfo");
+$('#AfterYourDonation').removeClass("selectedInfo");
+$(this).addClass('selectedInfo');
+$('#2').show().siblings('div').hide();	
+});
+
+$('#WhatHappensOnTheDay').on('click',function(){
+$('#RegisteringOnline').removeClass("selectedInfo");
+$('#PreparingToGiveBlood').removeClass("selectedInfo");
+$('#AfterYourDonation').removeClass("selectedInfo");
+$(this).addClass('selectedInfo');
+$('#3').show().siblings('div').hide();	
+});
+
+
+$('#AfterYourDonation').on('click',function(){
+$('#RegisteringOnline').removeClass("selectedInfo");
+$('#PreparingToGiveBlood').removeClass("selectedInfo");
+$('#WhatHappensOnTheDay').removeClass("selectedInfo");
+$(this).addClass('selectedInfo');
+$('#4').show().siblings('div').hide();	
+});
+
+
+
+</script>
+</div>
+	<div class = "verticalLine"></div>
+	<div class = "ContentRightContainer">
+	
+		<div class = "content">
+			<div id = "0">
+			<h2>The donation process</h2><br>
+			Giving blood is simple and it saves lives. When you give blood, it is collected so it can be used to treat someone else.
+			For most people, giving blood is easy and follows the simple steps listed below. See our animation which takes you through what happens step by step.
+			<br><br><strong>Before you give blood</strong><br>
+			<ul>
+				<li>Check you are able to give blood.
+				<li>Find an appointment – a number of appointments can be booked in advance. If you are unable to book now, then please try for a later date. 
+					A limited number of walk-in slots are available.
+				<li>Register to be a donor online.
+				<li>Follow the preparing to give blood recommendations.
+			</ul>
+			<br><strong>When you give blood</strong><br>
+			This is what will happen when you attend your appointment, or go to a drop-in session, to give blood. 
+			If you attend an appointment to give blood we aim to ensure it takes no more than an hour.
+			<br><br><strong>1. Welcome and preparation</strong><br>
+			We will ask you to read our Welcome leaflet which explains the importance of blood safety. 
+			It’s important to read this whenever you attend because advice does change. 
+			We will give you 500ml of fluid just before you give blood. Drinking this over about 5 minutes will help with your well-being during and after donation.
+			<br><br><strong>2. Health screening</strong><br>
+			We make sure it is safe for you to donate, and that your blood donation is safe for a patient to receive.
+			We confirm your identity and ask you about the information on your donor health check form; a registered nurse may follow up if necessary.
+			We test a drop of blood from your finger to check the iron levels (haemoglobin) in your blood.
+			If you are not able to donate we will explain why, and may ask you to make another appointment.
+			If you are able to donate you will be asked to sit in a waiting area until you are called to a donation chair. 
+			<br><br><strong>3. Your blood donation</strong><br>
+			When you are comfortable on the chair we will ask you to confirm your name, address and date of birth.
+			We examine your arm and place a cuff on your arm to maintain a small amount of pressure during donation (this does not measure blood pressure).
+			We then examine your arm to find a suitable vein and clean it with an antiseptic sponge.
+			We will insert a needle in your arm which will collect your blood into a blood bag with your unique donor number.
+			You should not feel any discomfort or pain. If you do, tell a member of staff.
+			A scale weighs the blood and stops when you have donated 470ml (or just under a pint). This usually takes between 5-10 minutes.
+			The needle will be removed and a sterile dressing applied to your arm.<br><br><br>
+			</div>
+			
+			<div id="1" style="display:none;">
+			<h2>Registering online</h2><br>
+			New or existing blood donors can use our online service to book an appointment to give blood in Ireland. 
+			New donors must be aged between 17-65.
+			<br><br><strong>Create an online account</strong><br><br>
+			It’s quick and easy. You can:
+			<ul>
+				<li>find out where you can donate and book an appointment
+				<li>view, change or cancel appointments
+				<li>update your personal details
+				<li>view your recent donation history within the last 5 years
+				<li>You'll need a personal email address that only you can access.
+			</ul>
+			<br><br><br>
+			</div>
+			
+			<div id="2" style="display:none;">
+			<h2>Preparing to give blood</h2><br>
+			Follow our tips to make your blood donation experience pleasant, safe and straightforward.
+			<br><br><strong>Eat</strong><br><br>
+			Eat regular meals to help you avoid feeling lightheaded. Please do not donate if you are in a period of fasting.
+			<br><br><strong>Sleep</strong><br>
+			A good night's sleep will boost wellbeing.
+			<br><br><strong>Drink</strong><br>
+			Drink plenty of fluids 24 hours before donating, but avoid alcohol.
+			<br><br><strong>Wear</strong><br>
+			Put on loose and comfortable clothing, avoid tight sleeves.
+			<br><br><strong>Distract</strong><br>
+			Nervousness is normal, come with a friend or bring along a book or MP3 player so you can relax during your visit.
+			<br><br><strong>Know</strong><br>
+			Knowing your medical, body piercing and travel history will save you time.
+			<br><br><strong>Exercise</strong><br>
+			You can still exercise, but don't do anything more strenuous than usual: this applies before and after donating blood. 
+			Also ensure you are fully recovered and well hydrated before you donate blood.<br><br><br>
+			</div>
+			
+			<div id="3" style="display:none;">
+			<h2>What happens on the day</h2><br>
+			From the moment you arrive at your donation session, we will guide you through the process, explain what we are doing and answer any questions you may have.
+			<br><br><strong>Welcome and preparation</strong><br>
+			Before donating blood, please eat regular meals, drink plenty of fluid (non-alcoholic) and avoid vigorous exercise or exertion.
+			When you attend your donation session please read our Welcome leaflet: this explains the importance of blood safety. 
+			It's important to read this every time you attend, because advice does change.
+			We must give you sufficient information so that you can make an informed choice, on the benefits and risks of donating blood and samples for testing.
+			We will provide 500ml of fluid just before you donate. By drinking this over about 5 minutes, it will help with your wellbeing during and after donation.
+			<br><br><strong>Health screening</strong><br>
+			You will be called for private health screening, where a donor carer will confirm your identity. 
+			It’s critical that we guarantee an accurate link between you, your Donor Health Check and your donation.
+			We must ensure that it's safe for you to donate and your donation is safe for a patient to receive. 
+			We’ll ask some confidential questions based on your completed Donor Health Check.
+			There is a period of time from contact with any infection to detecting markers in the laboratory. 
+			We trust your honesty when answering these personal questions. This will ensure your blood is safe to transfuse to patients.
+			You may be referred to a registered nurse for certain medical queries: their uniforms have red piping on the collar and cuffs. 
+			An explanation will always be provided if you are not able to donate. You will be advised when you can donate, and we’ll encourage you 
+			to make an appointment before you leave (the team are only able to book future appointments for the venue they are currently at).
+			For your wellbeing, we must ensure you have enough haemoglobin (iron) in your blood before donating. 
+			A small blood sample will be taken from your finger to test your haemoglobin levels. If your test is borderline, we will offer you a confirmatory test.
+			This requires a sample of blood from your arm, to be tested in a machine at the session. We will advise you of the result.
+			Following health screening, you will be asked to sit in a different waiting area. From here you’ll be called and invited to a donation chair.
+			<br><br><strong>Your donation</strong><br>
+			When you are comfortable on the chair, you will be asked your name, address and date of birth again.
+			Blood bags and sample tubes are labelled with unique donor identification numbers. 
+			All collection equipment is single use and sterile; only one blood bag is filled with your donation.
+			A blood pressure cuff will be placed on your arm to maintain a small amount of pressure during your donation. 
+			The cuff is not used to measure blood pressure.
+			Your arm will be thoroughly examined to find a suitable vein before being cleaned with an antiseptic sponge. 
+			This kills normal bacteria (germs) on the skin. You will see staff cleaning their hands frequently, using hand wipes or gels.
+			Donors are advised to do applied muscle tension exercises during donation. 
+			This is to maintain blood pressure and promote wellbeing during and after donation.
+			Following needle insertion you should be comfortable during your donation. 
+			If you experience any discomfort or pain please alert a member of staff.
+			An agitator scale constantly weighs and measures your donation. 
+			It will stop automatically when your donation is complete. Donor carers will be available to you throughout your donation.
+			You may hear beeping noises from the agitator, these inform us of the progress of your donation. 
+			A full donation is 470ml and will usually take between 5 and 10 minutes.
+			If you require assistance or have any concerns, please make us aware by raising your non-donation arm. 
+			After donation, the needle will be removed and a sterile dressing applied to your arm.
+			We advise that you leave the pressure roll on for 30 minutes and the plaster dressing on for 6 hours. 
+			Please avoid using this arm to push on or to carry anything heavy.
+			We will give you a card at the end of your donation with important care advice. 
+			Donors are also asked to apply additional pressure to the venepuncture site while waiting for their drink at the refreshment area.
+			<br><br><strong>After donation refreshment</strong><br>
+			A selection of drinks and snacks are available at the refreshment table. 
+			We encourage donors to relax here for at least 15 minutes and to have at least 2 drinks following donation.
+			If you feel unwell, please remain seated and alert a member of staff immediately. Where possible, we encourage you to book an appointment for your next donation.
+			<br><br><br>
+			</div>
+			
+			<div id="4" style="display:none;">
+			<h2>After your donation</h2><br>
+			During a blood donation we take 470ml of blood, which is just under a pint.
+			Your donation is transported to one of our blood centres where it is tested and processed before being issued to hospitals. 
+			If you’ve ever wondered what happens to your blood donation view our animation.
+			After donation, your body has an amazing capacity to replace the blood you have given.
+			To help you stay well after you have given blood, we advise you to:
+			<ul>
+				<li>keep the pressure bandage on your arm for about 30 minutes after you have given blood, and the plaster on for 6 hours
+				<li>rest for a short time after giving blood
+				<li>eat and drink – you will be encouraged to have at least 2 drinks and a snack before you leave
+				<li>avoid using the donation arm to carry anything very heavy for the rest of the day
+				<li>avoid having a hot bath after you have given blood
+			</ul>
+			If you feel faint (light headed or dizzy, hot, sweating, trembling, shaky or nauseous) lie down immediately, rest until you feel better and drink plenty of fluid.
+			If bleeding recurs, sit down, raise your arm and press on the area where the blood is coming from for at least 5 minutes.
+			<br><br><br>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class = "break"></div>
+<div class = "footerContainer">
+<div class = "footerBar">
+<ul>
+<li><a href= "Sitemap.html" target="_blank">Sitemap</a>
+<li><a href= "Links.html" target="_blank">Links</a>
+<li><a href= "TermsOfUse.html" target="_blank">Terms of Use</a>
+<li class = "footerIcons"><a href= "https://www.facebook.com/yahya.almardeny"><img src = "images/FacebookIcon.png" width = "33px"  Alt="FacebookIcon"></a><a href= "https://twitter.com/Yahya05sy"><img src = "images/TwitterIcon.png" width = "33px"  Alt="TwitterIcon"></a></li>
+</ul>
+    
+</div>
+</div>
+
+</body>
+
+
+
+
+</HTML>

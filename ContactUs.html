@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html lan="en">
+<head>
+<meta charset = "utf-8">
+<meta name = "CBB" content = "Contact Us">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Contact Us</title>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico'/>
+</head>
+<body class = "mainContainer">
+<div class = "headerContainer"><img src= "images/header.png" width = "100%" height= "100%" Alt="Header Image"></div>
+<div class = "navBarContainer">
+<div class ="navbar"> 
+<ul>
+<li><a href= "index.html">Home</a><font color = "white"><b>|</b> 
+<li><a href= "Why Give Blood.html">Why Give Blood</a><b>|</b> 
+<li><a href= "Who Can Give Blood.html">Who Can Give Blood</a><b>|</b> 
+<li><a href= "Donation Process.html">Donation Process</a><b>|</b> 
+<li><a href= "Blood Types.html">Blood Types</a><b>|</b>
+<li><a href= "ContactUs.html"><selected>Contact Us</a></font>
+</ul>
+
+</div>
+</div>
+<div class = "bodyContainer">
+<div class = "homeContentLeftContainer"><br>
+Please feel free to send us any comment, question or suggestion by filling out this form:<br><br><br>
+<form action="" id="ContactUsForm" method="post" onsubmit="return ValidateForm(this);">
+<input name="skip_WhereToSend" type="hidden" value="your@email.com" />
+<input name="skip_Subject" type="hidden" value="Contact Us Form" />
+<script type="text/javascript">
+function ValidateForm(frm) {
+if (frm.Name.value == "") {alert('Name is required.');frm.Name.focus();return false;}
+if (frm.FromEmailAddress.value == "") {alert('Email address is required.');frm.FromEmailAddress.focus();return false;}
+if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) {alert('Please enter a valid email address.');frm.FromEmailAddress.focus();return false;}
+if (frm.Comments.value == "") {alert('Please enter comments or questions.');frm.Comments.focus();return false;}
+else {alert("Your Message has been sent, Thank You!"); return true;}
+return true; }
+</script>
+<table border="0" cellpadding="5" cellspacing="0">
+<tr>
+<td><b>Name*:</b></td>
+<td><input name="Name" type="text" maxlength="60" style="width:15vw;" /></td>
+</tr><tr>
+<td><b>Phone number:</b></td>
+<td><input name="PhoneNumber" type="text" maxlength="43" style="width:15vw;" /></td>
+</tr><tr>
+<td><b>Email*:</b></td>
+<td><input name="FromEmailAddress" type="text" maxlength="60" style="width:15vw;" /></td>
+</tr><tr>
+<td><b>Comments*:</b></td>
+<td><textarea name="Comments" rows="7" cols="40" style="width:15vw;"></textarea></td>
+</tr><tr>
+<td colspan="2" align="center"> <br />
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td colspan="2" style="padding-bottom:18px;">
+</table>
+* - required fields. &nbsp; &nbsp;
+<button>Submit</button>
+
+</td></tr>
+</table><br />
+</form>
+</div>
+
+<div class = "homeContentRightContainer">
+<br><br>
+<figure>
+<img src = "images/Map.png" width = "100%" onclick="view('images/Map.png')" style="cursor: pointer;" Alt="Map Image">
+<script type="text/javascript">
+   function view(imgsrc) {
+      viewwin = window.open(imgsrc,'viewwin', 'width=800,height=600'); 
+   }
+</script>
+<figcaption>
+<center><i>Community Blood Bank<br>
+Waterford Institute of Technology<br>
+Developed By: Yahya Almardeny<br>
+Waterford - Ireland<br>
+Tel. +353 123456<br>
+E-mail: cbb@cbb.com</i></center></figcaption>
+<figure>
+</div>
+</div>
+
+<div class = "break"></div>
+<div class = "footerContainer">
+<div class = "footerBar">
+<ul>
+<li><a href= "Sitemap.html" target="_blank">Sitemap</a>
+<li><a href= "Links.html" target="_blank">Links</a>
+<li><a href= "TermsOfUse.html" target="_blank">Terms of Use</a>
+<li class = "footerIcons"><a href= "https://www.facebook.com/yahya.almardeny"><img src = "images/FacebookIcon.png" width = "33px"  Alt="FacebookIcon"></a><a href= "https://twitter.com/Yahya05sy"><img src = "images/TwitterIcon.png" width = "33px"  Alt="TwitterIcon"></a></li>
+</ul>
+    
+</div>
+</div>
+
+</body>
+
+
+
+
+</HTML>
